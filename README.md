@@ -1,6 +1,6 @@
 # Sample
 
-Link to my CV with a contact form attached
+Link to my CV with a contact form attached - https://akosworldwide.github.io/index.html/
 
 Add form functionalities using css and js to my html cv format and also renamed the html file so I can push to github
 
