@@ -4,15 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Curriculum Vitae</title>
-    <link rel="stylesheet" href="john.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <header>
             <hr>
 
             <div>
-                <img src=" https://res.cloudinary.com/akosworldwide/image/upload/v1566672214/my%20cv%20screenshot/My_CV_Page_Screenshot_l3lht0.png " alt=" My image">
-                <img src="https://res.cloudinary.com/akosworldwide/image/upload/v1567062404/my%20cv%20screenshot/Css_added_muvroj.png" alt=" My image">
                 <center> <img src="img/Akosworldwide.jpg" alt="" width="170" height="170"> </center>
                 </div>
 
@@ -103,13 +101,51 @@
           <hr>
           <p>Available Upon Request</p>
 
+        <div id="modal-with-form" class="contact-modal hide-modal">
+                <div class="container">  
+                <form id="contact-form">
+                  <h3>Contact Form</h3>
+                
+                  <span id="close-btn">&times;</span>
+                  <fieldset>
+                    <input type="text" id="name" required autofocus minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                   <fieldset>
+                    <input type="title" id="title" required placeholder="Your message title here...">
+                  </fieldset>
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+            <h2>Get In Touch here</h2>
+        </div>
+    
+        </form>
+
+           
           <center><footer>
-               <h4>CONNECT WITH ME</h4>
+          	  <hr>
+              <h4>Akosworldwide &copy; 2019</h4>
                <a href="https://github.com/Akosworldwide" target="_blank"><img src="img/Github.png" alt="" width="30" height="30"></a>
                <a href="https://www.linkedin.com/in/john-ojeba-5ba576159/" target="_blank"><img src="img/LinkedIn.png" alt="" width="30" height="30"></a>
                <a href="https://twitter.com/akosworldwide" target="_blank"><img src="img/Twitter.png" alt="" width="30" height="30"></a>
           </footer></center>
-     
 
-</body>
+         <script src="test.js"></script>
+
+    </body>
 </html>
